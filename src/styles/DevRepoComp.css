@@ -1,0 +1,51 @@
+.devRepoCompContainer {
+	display: flex;
+	flex-direction: row;
+	border-bottom-style: solid;
+	border-bottom-color: lightgrey;
+	border-bottom-width: 0.5;
+	border-top-style: solid;
+	border-top-color: lightgrey;
+	border-top-width: 0.5;
+	/* margin-top: 30px; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.repoDetails {
+	display: flex;
+	flex-direction: column;
+	flex: 8;
+	align-items: flex-start;
+	margin-top: 15px;
+	border-right-width: 0.3;
+	border-right-style: solid;
+	border-right-color: lightgrey;
+}
+
+.devRepoName {
+	color: #2196f3;
+	text-underline-position: below;
+}
+
+.devRepoDescription {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.devDetails {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 2;
+}
+
+.devRepoDevName {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.devRepoImg {
+	height: 130px;
+	width: 130px;
+}

@@ -1,0 +1,32 @@
+.checkerScreen {
+	display: flex;
+	flex-direction: column;
+}
+
+.checkerInfo {
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 0.5;
+	border-radius: 20px;
+	align-items: flex-start;
+	margin: 20px;
+	padding-bottom: 100px;
+}
+
+.checkerInfoTitle {
+	align-self: center;
+}
+
+.checkerInfoText {
+	margin-left: 10px;
+	align-self: flex-start;
+}
+
+.forTheChecker {
+	display: flex;
+	align-self: flex-start;
+	margin-bottom: 6px;
+	font-size: 18px;
+}

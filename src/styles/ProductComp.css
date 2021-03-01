@@ -1,0 +1,39 @@
+.ProductCompContainer {
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.ProductCompImg {
+}
+
+.ProductText {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.firstLineText {
+	margin-bottom: 15px;
+}
+
+.ProducCompTextContainerLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 50px;
+}
+
+.ProducCompTextContainerRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+}
+
+.ProductCompTitle {
+	align-self: center;
+}

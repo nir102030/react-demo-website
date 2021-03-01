@@ -1,0 +1,41 @@
+.ourStory {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.ourStoryTitle {
+	display: flex;
+	align-self: flex-start;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.ourStoryText {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 40px;
+}
+
+.ourStoryLine {
+	display: flex;
+	align-self: flex-start;
+	margin-bottom: 6px;
+	font-size: 18px;
+}
+
+.ourStory1 {
+	margin-bottom: 30px;
+}
+
+.ourTeam {
+	display: flex;
+	flex-direction: column;
+}
+
+.ourTeamTitle {
+	align-self: flex-start;
+	margin-left: 40px;
+}

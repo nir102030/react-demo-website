@@ -1,0 +1,17 @@
+.contentContainer {
+	background-color: white;
+	opacity: 90%;
+	border-radius: 10px;
+	height: 400px;
+	width: 850px;
+	display: flex;
+	flex-direction: column;
+}
+
+.investorsTitle {
+}
+
+.investorsText {
+	font-size: 26px;
+	justify-content: flex-start;
+}

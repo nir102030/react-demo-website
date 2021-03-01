@@ -1,0 +1,53 @@
+.developerContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.top {
+	background-image: linear-gradient(0deg, rgba(107, 162, 221, 0.863), rgba(7, 92, 184, 0.863)),
+		url('../images/devBack.jpg');
+	opacity: 90%;
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.topText {
+	align-self: center;
+	color: white;
+	font-size: 35px;
+}
+
+.buttomText {
+	align-self: center;
+	color: white;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.getStarted {
+	width: 100px;
+	height: 40px;
+	background-color: #3f51b5;
+	border-color: #3f51b5;
+	color: white;
+	align-self: center;
+	margin-top: 50;
+	border-radius: 8px;
+}
+
+.getStarted:hover {
+	opacity: 50%;
+	transition: opacity 0.8s;
+	cursor: pointer;
+}
+
+.DevHeader {
+	margin-top: 100px;
+}
+
+.package {
+	align-self: center;
+}

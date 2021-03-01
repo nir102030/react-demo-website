@@ -1,0 +1,66 @@
+.login_container {
+	background: rgb(255, 255, 255);
+	width: 300px;
+	height: 300px;
+	margin-left: 40%;
+	margin-top: 7%;
+	box-shadow: 2px 2px 10px rgb(8, 8, 8);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.after_login {
+	color: rgb(255, 255, 255);
+	width: 500px;
+	margin-left: 40%;
+	margin-top: 10%;
+	font-size: 40px;
+}
+
+.google-login-icon {
+	width: 65%;
+	color: rgb(108, 196, 162);
+}
+
+.title {
+	font-size: 40px;
+	align-self: center;
+	color: rgb(66, 66, 66);
+}
+
+.register_btn {
+	margin-top: 5px;
+	margin-left: 100px;
+	width: 100px;
+	height: 30px;
+	background: rgb(58, 58, 58);
+	color: rgb(255, 255, 255);
+	border: none;
+	cursor: pointer;
+}
+
+.register_btn:hover {
+	background: rgb(68, 190, 150);
+	color: rgb(0, 0, 0);
+}
+
+.register_label {
+	font-size: 15px;
+	margin-left: 63px;
+	margin-top: 30px;
+	color: rgb(66, 66, 66);
+}
+
+.github-login-icon {
+	margin-top: 20px;
+	width: 65%;
+}
+
+.github-login-icon:hover {
+	opacity: 50%;
+	transition: opacity 0.8s;
+	cursor: pointer;
+}

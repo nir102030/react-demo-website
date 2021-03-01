@@ -1,0 +1,17 @@
+.RepoContainer {
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.RepoContainer:hover {
+	opacity: 50%;
+	transition: opacity 0.8s;
+	cursor: pointer;
+}
+
+.image {
+	height: 100px;
+	width: 100px;
+	margin-top: 8px;
+}

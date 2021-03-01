@@ -1,0 +1,129 @@
+/* Add a black background color to the top navigation */
+.topnav {
+	overflow: hidden;
+	/* border-style: solid;
+	border-color: #1273de; */
+	height: 60px;
+	background-color: #0c1236;
+}
+
+.connected_user_navbar {
+	color: white;
+	margin-left: 30%;
+}
+
+#login {
+	float: right;
+}
+
+/* Style the links inside the navigation bar */
+.menutext {
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: default;
+}
+
+/* Change the color of links on hover */
+.menutext:hover {
+	background-color: #1273de;
+	color: black;
+	cursor: pointer;
+}
+
+/* Add a color to the active/current link */
+.menutext.active {
+	background-color: #1273de;
+	color: white;
+}
+
+.menutext.active:hover {
+	background-color: #1273de;
+	color: black;
+}
+
+#logo {
+	max-width: 50%;
+	height: auto;
+}
+
+.instituteName {
+	color: green;
+}
+
+.avatarDiv {
+	float: right;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hello_connected_user {
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+.logout_btn {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.register {
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: default;
+	float: right;
+}
+
+.register:hover {
+	background-color: #1273de;
+	color: black;
+	cursor: pointer;
+}
+
+.menutextRight {
+	float: right;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	cursor: default;
+}
+
+/* Change the color of links on hover */
+.menutextRight:hover {
+	background-color: #1273de;
+	color: black;
+	cursor: pointer;
+}
+
+/* Add a color to the active/current link */
+.menutextRight.active {
+	background-color: #1273de;
+	color: white;
+}
+
+.menutextRight.active:hover {
+	background-color: #1273de;
+	color: black;
+}
+
+.warning {
+	float: left;
+	color: white;
+	padding: 20px 16px;
+}
